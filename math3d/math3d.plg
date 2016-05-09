@@ -1,0 +1,36 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: math3d - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\USTAWI~1\Temp\RSP27.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/math3d.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\coding\ash_\viewer\math3d\matrix4x4.cpp"
+"C:\coding\ash_\viewer\math3d\quaternion.cpp"
+"C:\coding\ash_\viewer\math3d\vector3.cpp"
+"C:\coding\ash_\viewer\math3d\vector4.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\USTAWI~1\Temp\RSP27.tmp" 
+Creating command line "link.exe -lib /nologo /out:"math3d.lib"  .\Release\matrix4x4.obj .\Release\quaternion.obj .\Release\vector3.obj .\Release\vector4.obj "
+<h3>Output Window</h3>
+Compiling...
+matrix4x4.cpp
+C:\coding\ash_\viewer\math3d\matrix4x4.cpp(157) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\coding\ash_\viewer\math3d\matrix4x4.cpp(158) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\coding\ash_\viewer\math3d\matrix4x4.cpp(147) : warning C4101: 'tanfov' : unreferenced local variable
+quaternion.cpp
+vector3.cpp
+vector4.cpp
+Creating library...
+
+
+
+<h3>Results</h3>
+math3d.lib - 0 error(s), 3 warning(s)
+</pre>
+</body>
+</html>

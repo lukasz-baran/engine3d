@@ -1,0 +1,178 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Polish resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PLK)
+#ifdef _WIN32
+LANGUAGE LANG_POLISH, SUBLANG_DEFAULT
+#pragma code_page(1250)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOG DISCARDABLE  0, 0, 221, 102
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Ustawienia"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,164,35,50,14
+    PUSHBUTTON      "Anuluj",IDCANCEL,164,53,50,14
+    CONTROL         "320 x 240",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,21,23,50,11
+    CONTROL         "640 x 480",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,21,40,
+                    47,10
+    CONTROL         "800 x 600",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,21,57,
+                    47,10
+    CONTROL         "1024 x 768",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,21,
+                    74,51,10
+    CONTROL         "Pe³ny ekran",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,96,18,55,10
+    CONTROL         "Okno",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON,96,34,33,
+                    10
+    CONTROL         "16",IDC_RADIO7,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    108,64,24,10
+    CONTROL         "32",IDC_RADIO8,"Button",BS_AUTORADIOBUTTON,108,79,24,10
+    GROUPBOX        "Tryb",IDC_STATIC,88,7,71,44,WS_GROUP
+    GROUPBOX        "Liczba bitów",IDC_STATIC,88,55,71,40,WS_GROUP
+    GROUPBOX        "Rozdzielczoœæ",IDC_STATIC,7,7,76,88,WS_GROUP
+END
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 160, 86
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "O programie..."
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",ID_ABOUT_OK,102,65,50,14
+    CONTROL         120,IDC_STATIC,"Static",SS_BITMAP | SS_REALSIZEIMAGE,7,7,
+                    50,73,WS_EX_ACCEPTFILES | WS_EX_CLIENTEDGE | 
+                    WS_EX_STATICEDGE
+    LTEXT           "Projekt z przedmiotu Grafika komputerowa autor £ukasz Baran",
+                    IDC_STATIC,70,5,82,28
+    CONTROL         "ash@prz-rzeszow.pl",IDC_STATIC,"Static",SS_SIMPLE | 
+                    WS_GROUP,70,40,67,9
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 214
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 95
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 152
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 79
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP "Plik"
+    BEGIN
+        MENUITEM "Otwórz",                      ID_MENU_FILE_OPEN
+        MENUITEM "Zamknij",                     ID_MENU_FILE_CLOSE
+        MENUITEM "Wyjœcie",                     ID_MENU_FILE_EXIT
+    END
+    POPUP "Wyœwietl"
+    BEGIN
+        MENUITEM "Animacja...",                 ID_MENU_VIEW_ANIMATION
+    END
+    POPUP "Pomoc"
+    BEGIN
+        MENUITEM "O programie...",              ID_MENU_HELP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "logoprz2.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_IKONA               ICON    DISCARDABLE     "icon1.ico"
+#endif    // Polish resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
